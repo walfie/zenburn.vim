@@ -236,6 +236,10 @@ endif
 set background=dark
 
 hi clear
+
+" Reset colorscheme (for neovim 0.10): https://neovim.io/doc/user/news-0.10.html#_breaking-changes
+colorscheme vim
+
 if exists("syntax_on")
     syntax reset
 endif
